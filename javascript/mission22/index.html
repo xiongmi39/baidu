@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style type="text/css">
+	#tree{
+		height: 500px;
+		width: 1000px;
+		border: 2px solid #507883;
+		margin: 5% 5%;
+	}
+	.node{
+		height: 80%;
+		width: 38%;
+		border: 2px solid #507883;
+		margin: 3% 3%;
+		float: left;
+	}
+	button {
+		float: left;
+		margin: 0px 10px;
+	}
+</style>
+<body>
+<div id="tree">
+	<div class="node">
+		<div class="node" >
+			<div class="node"></div>
+			<div class="node"></div>
+		</div>
+		<div class="node">
+			<div class="node"></div>
+			<div class="node"></div>
+		</div>
+	</div>
+	<div class="node">
+		<div class="node">
+			<div class="node"></div>
+			<div class="node"></div>
+		</div>
+		<div class="node">
+			<div class="node"></div>
+			<div class="node"></div>
+		</div>
+	</div>
+</div>
+<div id="btn">
+	<button id="inorder">中序</button>
+	<button id="preorder">前序</button>
+	<button id="postorder">后序</button>
+</div>
+	<script type="text/javascript" src="task.js"></script>
+</body>
+</html>

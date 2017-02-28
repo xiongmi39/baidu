@@ -1,0 +1,66 @@
+#chess{
+	margin: 0px auto;
+	display: block;
+	float: left;
+}
+#noline{
+	margin-left: 30px;
+	width: 300px;
+}
+.line span{
+	margin: 0px 10px;
+	width: 10px;
+	display: inline-block;
+	color: #C40000;
+}
+.row span{
+	height: 10px;
+	margin: 10.5px 0;
+	display: inline-block;
+}
+#norow{
+	float: left;
+	width: 10px;
+	margin-right: 10px;
+	height: 300px;
+}
+#main{
+	height: 400px;
+	width: 400px;
+	margin: auto auto;
+	position: relative;
+}
+#square{
+	height: 25px;
+	width: 30px;
+	background-color : #C40000;
+	position: absolute;
+	top: 183px;
+	left: 155px;
+	border-top: 5px solid #0100FE;
+}
+input{
+	margin: 10px auto;
+}
+// .top{
+// 	height: 5px;
+// 	width: 30px;
+// 	background-color: #0100FE;
+// }
+// .left{
+// 	height: 30px;
+// 	width: 5px;
+// 	background-color: #0100FE;
+// }
+// .right{
+// 	height: 30px;
+// 	width: 5px;
+// 	margin-left: 25px;
+// 	background-color: #0100FE;
+// }
+// .bottom{
+// 	height: 5px;
+// 	width: 30px;
+// 	margin-top: 25px;
+// 	background-color: #0100FE;
+// }

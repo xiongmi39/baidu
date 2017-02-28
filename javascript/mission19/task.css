@@ -1,0 +1,28 @@
+#inbtn, #outbtn{
+	display: inline-block;
+	margin-left: 20px;
+}
+#list{
+	margin:50px auto;
+	height: 200px;
+	width: 90%;
+	border: 3px solid #efefef;
+}
+.item {
+	height: 100%;
+    position: relative;
+    float: left;
+}
+.bar{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+.per{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: #C40000;
+}
+		

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		input{
+			border: 1px solid #2d8785;
+			border-radius: 10px;
+			height: 50px;
+			width: 200px;
+			margin: 10px 10px;
+		}
+		.tag{
+			color: #fff;
+			height: 50px;
+			width: 50px;
+			background-color: #2d8785;
+			margin: 0px 10px;
+
+		}
+		.tag:hover{
+			color: #fff;
+			height: 20px;
+			width: 20px;
+			background-color: #f0a9b2;
+			margin: 0px 10px;
+		}
+		i{
+			display: none;
+		}
+		.tag:hover i{
+			display: inline;
+		}
+		#showtag{
+			margin: 10px 0px;
+		}
+		#crmbtn{
+			border-radius: 50%;
+			height: 50px;
+			width: 50px;
+			margin: 0px 20px;
+			border: 1px solid #2d8785;
+			color: #2d8785;
+			float: left;
+		}
+		#txttags{
+			float: left;
+			height: 100px;
+			width: 200px;
+		}
+		#multitags{
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+    <div id="intag">
+    	<input type="text" name="" id="tagtxt" placeholder="tags">
+    	<div id="showtag">
+    	</div>
+    
+    	<input type="textarea" name="" id="txttags" placeholder="请输入多个兴趣">
+    	<button id="crmbtn">确认兴趣爱好</button>
+    	<div id="multitags">
+    	</div>
+    </div>
+	<script type="text/javascript" src="task.js"></script>
+</body>
+</html>

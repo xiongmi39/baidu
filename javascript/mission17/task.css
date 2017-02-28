@@ -1,0 +1,38 @@
+
+#aqi-chart-wrap{
+	margin: 100px auto;
+	height: 50%;
+	width: 95%;
+	border: 3px solid #eee;
+	position: relative;
+}
+.item{
+	position: relative;
+	height: 100%;
+	float: left;
+}
+.inner {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+.bar {
+	width: 100%;
+	 animation:upbar 5s;
+	 -moz-animation:upbar 5s; /* Firefox */
+	 -webkit-animation:upbar 1s ; /* Safari and Chrome */
+	 -o-animation:upbar 5s; /* Opera */
+	 height: 100%;
+	 position: absolute;
+	 bottom: 0;
+}
+@keyframes upbar
+{
+from {height:0%;}
+to {height:100%;}
+}
+@-webkit-keyframes upbar
+{
+from {height:0%;}
+to {height:100%;}
+}

@@ -1,0 +1,57 @@
+#div1{ width:20px; height:20px; background:red; position:absolute; left:800px; top:300px;}
+.box{ border:1px #000 solid; position:absolute;}
+
+#uniCancas{
+	width: 500px;
+	height: 500px;
+	margin: 150px 200px;
+	border: 1px solid #000;
+}
+.rail{
+	height: 50%;
+	width: 50%;
+	border-radius: 50%;
+	border: 1px solid #000;
+	margin: 25% 25%;
+}
+.outrail{
+	height: 90%;
+	width: 90%;
+	border-radius: 50%;
+	border: 1px solid #000;
+	margin: 5% 5%;
+}
+#control{
+	height: 120px;
+	width: 550px;
+	border: 2px solid #000;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+#console{
+	height: 100px;
+	width: 500px;
+	border: 2px solid #000;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+button{
+	margin: 5px 5px;
+}
+.ship{
+	height: 20px;
+	width: 40px;
+	border-radius: 20px;
+	border: 1px solid #eee;
+	background-color: #eee;
+}
+.energy{
+	height: 100%;
+	width: 100%;
+	background-color: #C40000;
+	border-radius: 20px;
+}

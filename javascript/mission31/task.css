@@ -1,0 +1,29 @@
+#form{
+	margin: 50px auto;
+	width: 500px;
+}
+label{
+	margin-left: 105px;
+	width: 50px;
+}
+.part{
+	margin: 10px auto;
+}
+select{
+	width: 150px;
+	margin: 0 15px;
+	height: 25px;
+	border-radius: 5px;
+}
+input[type="text"]{
+	margin-left: 15px;
+	height: 25px;
+	border-radius: 5px;
+}
+span {
+	width: 100px;
+	display: inline-block;
+}
+.hide{
+	display: none;
+}

@@ -1,0 +1,23 @@
+[{
+	"super":{
+		"ca":{
+			"Apple":{"pear":{},"pig":{},"cala":{},"soccor":{}},
+			"phone":{},
+			"miao":{"book":{},"school":{}}
+		},
+		"note":{
+			"human":{
+				"code":{},
+				"operate":{},
+				"man":{}
+			},
+			"program":{
+				"bement":{
+					"cat":{}
+				},
+				"glass":{}
+			}
+		},
+		"flash":{}
+	}
+}]
